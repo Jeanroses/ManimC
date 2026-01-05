@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ManimCommunity/manim/main/logo/cropped.png" alt="Manim Logo" width="400"/>
+  <img src="https://raw.githubusercontent.com/ManimCommunity/manim/main/logo/cropped.png" alt="Manim Logo" width="300"/>
 </p>
 
 <h1 align="center">🎬 Manim — Mathematical Animation Engine</h1>
