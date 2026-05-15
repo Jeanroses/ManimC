@@ -2,19 +2,18 @@
   <img src="https://raw.githubusercontent.com/ManimCommunity/manim/main/logo/cropped.png" alt="Manim Logo" width="250"/>
 </p>
 
-<h1 align="center">ManimC - Mathematical & Technical Animation Engine</h1>
+<h1 align="center">ManimC - Mathematical and Technical Animation Engine</h1>
 
 <p align="center">
   <strong>Production-grade educational content with automated video generation for engineering and computer science</strong>
 </p>
 
 <p align="center">
-  <a href="#overview">Overview</a> •
-  <a href="#technology-stack">Tech Stack</a> •
-  <a href="#projects">Projects</a> •
-  <a href="#getting-started">Getting Started</a> •
-  <a href="#development">Development</a> •
-  <a href="#contributing">Contributing</a> •
+  <a href="#overview">Overview</a> |
+  <a href="#technology-stack">Tech Stack</a> |
+  <a href="#getting-started">Getting Started</a> |
+  <a href="#development">Development</a> |
+  <a href="#documentation">Documentation</a> |
   <a href="#license">License</a>
 </p>
 
@@ -29,61 +28,45 @@
 
 ---
 
-## 📊 Overview
+## Overview
 
-**ManimC** is a comprehensive repository containing production-ready Manim animations for technical and educational content. The project covers multiple domains including mathematics, computer science, software engineering, and system architecture visualization.
+ManimC is a comprehensive repository containing production-ready Manim animations for technical and educational content. The project covers multiple domains including mathematics, computer science, software engineering, and system architecture visualization.
 
 ### Key Capabilities
 
-- **High-precision mathematical rendering** with LaTeX integration
-- **Professional-grade animations** at up to 4K 60fps
-- **Modular scene architecture** for reusable components
-- **Cross-platform rendering pipeline** using FFmpeg
-- **Enterprise-level code quality** with proper documentation
+- High-precision mathematical rendering with LaTeX integration
+- Professional-grade animations at up to 4K 60fps
+- Modular scene architecture for reusable components
+- Cross-platform rendering pipeline using FFmpeg
+- Enterprise-level code quality with proper documentation
 
 ---
 
-## 🛠 Technology Stack
+## Technology Stack
 
 ### Core Technologies
 
 | Category | Technology | Version | Purpose |
 |----------|------------|---------|---------|
-| **Animation Engine** | Manim Community | 0.18+ | Mathematical animation rendering |
-| **Programming Language** | Python | 3.10+ | Core animation logic |
-| **Mathematical Typesetting** | LaTeX | TeX Live 2024+ | Formula rendering |
-| **Video Encoding** | FFmpeg | 6.0+ | Video compilation and encoding |
-| **IDE/Development** | VS Code | Latest | Development environment |
+| Animation Engine | Manim Community | 0.18+ | Mathematical animation rendering |
+| Programming Language | Python | 3.10+ | Core animation logic |
+| Mathematical Typesetting | LaTeX | TeX Live 2024+ | Formula rendering |
+| Video Encoding | FFmpeg | 6.0+ | Video compilation and encoding |
+| IDE/Development | VS Code | Latest | Development environment |
 
 ### Additional Technologies
 
 | Domain | Technology | Purpose |
 |--------|------------|---------|
-| **Object-Oriented** | Java 17+ | POO concepts visualization |
-| **Web Framework** | .NET 8 / ASP.NET Core | Web API and Entity Framework |
-| **Database** | Entity Framework Core 8 | ORM patterns demonstration |
-| **Version Control** | Git 2.40+ | Source control |
+| Object-Oriented | Java 17+ | POO concepts visualization |
+| Web Framework | .NET 8 / ASP.NET Core | Web API and Entity Framework |
+| Database | Entity Framework Core 8 | ORM patterns demonstration |
+| Enterprise Java | Spring Boot 3.x | Enterprise development |
+| Version Control | Git 2.40+ | Source control |
 
 ---
 
-## 📁 Projects
-
-### Current Portfolio
-
-| # | Project Name | Domain | Status | Lines of Code |
-|---|--------------|--------|--------|---------------|
-| 01 | Algoritmos de búsqueda y ordenamiento | Computer Science | ✅ Active | ~1,073 |
-| 02 | Integral de Green | Mathematics | ✅ Active | ~763 |
-| 03 | Derivadas parciales y gradiente | Mathematics | ✅ Active | ~374 |
-| 04 | Métodos numéricos | Numerical Analysis | ✅ Active | ~606 |
-| 05 | Transformada de Laplace | Mathematics | ✅ Active | ~564 |
-| 06 | Transformada de Fourier | Signal Processing | ✅ Active | ~620 |
-| 07 | POO en Java | Software Engineering | ✅ Active | ~1,207 |
-| 08 | .NET y Entity Framework | Enterprise Development | ✅ Active | ~1,275 |
-
----
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -118,7 +101,7 @@ manim --version
 
 ```bash
 # Navigate to project directory
-cd "Algoritmos de búsqueda y ordenamiento"
+cd "Algoritmos de busqueda y ordenamiento"
 
 # Render preview (low quality)
 manim -pql algorithms_video.py AlgorithmsFullVideo
@@ -132,49 +115,16 @@ manim -pqk algorithms_video.py AlgorithmsFullVideo
 
 ---
 
-## 📂 Project Structure
-
-```
-ManimC/
-├── README.md                           # This file
-├── Algoritmos de búsqueda y ordenamiento/
-│   ├── algorithms_video.py            # Main animation file
-│   └── media/                         # Rendered output
-├── Integral de Green/
-│   ├── greens_theorem_video.py
-│   └── media/
-├── Derivadas parciales y gradiente/
-│   ├── partial_derivatives_gradient_video.py
-│   └── media/
-├── Métodos numéricos/
-│   ├── numerical_methods_video.py
-│   └── media/
-├── Transformada de Laplace/
-│   ├── laplace_transform_video.py
-│   └── media/
-├── Transformada de Fourier/
-│   ├── fourier_transform_video.py
-│   └── media/
-├── POO en Java/
-│   ├── java_oop_video.py
-│   └── media/
-└── .NET y Entity Framework/
-    ├── dotnet_entityframework_video.py
-    └── media/
-```
-
----
-
-## ⚙️ Rendering Configuration
+## Rendering Configuration
 
 ### Quality Presets
 
 | Quality | Resolution | FPS | Use Case |
 |---------|------------|-----|----------|
-| `ql` (Low) | 854x480 | 15 | Development/Debugging |
-| `qm` (Medium) | 1280x720 | 30 | Testing/Preview |
-| `qh` (High) | 1920x1080 | 60 | Production |
-| `qk` (4K) | 3840x2160 | 60 | Ultra HD Distribution |
+| ql (Low) | 854x480 | 15 | Development/Debugging |
+| qm (Medium) | 1280x720 | 30 | Testing/Preview |
+| qh (High) | 1920x1080 | 60 | Production |
+| qk (4K) | 3840x2160 | 60 | Ultra HD Distribution |
 
 ### Output Format Options
 
@@ -191,7 +141,7 @@ manim -pqh -s video.py Scene                 # Save final frame as PNG
 
 ---
 
-## 🎨 Code Architecture
+## Code Architecture
 
 ### Standard Scene Template
 
@@ -226,15 +176,15 @@ class FullVideo(Scene):
 
 | Component | Description |
 |-----------|-------------|
-| **Scene** | Base class for all animations |
-| **Mobjects** | Mathematical objects (Circle, Square, Axes, etc.) |
-| **Animations** | Transitions (Create, FadeIn, Transform, etc.) |
-| **MathTex** | LaTeX formula rendering |
-| **Code** | Syntax-highlighted code blocks |
+| Scene | Base class for all animations |
+| Mobjects | Mathematical objects (Circle, Square, Axes, etc.) |
+| Animations | Transitions (Create, FadeIn, Transform, etc.) |
+| MathTex | LaTeX formula rendering |
+| Code | Syntax-highlighted code blocks |
 
 ---
 
-## 🔧 Development
+## Development
 
 ### Running Tests
 
@@ -276,7 +226,7 @@ pixel_width = 1920
 
 ---
 
-## 📚 Documentation References
+## Documentation References
 
 ### Official Documentation
 
@@ -304,15 +254,15 @@ pixel_width = 1920
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
-Contributions are welcome! Please follow these steps:
+Contributions are welcome. Please follow these steps:
 
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
-3. **Commit** your changes (`git commit -m 'Add amazing feature'`)
-4. **Push** to the branch (`git push origin feature/AmazingFeature`)
-5. **Open** a Pull Request
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ### Contribution Guidelines
 
@@ -323,29 +273,13 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📝 License
+## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📈 Roadmap
-
-### Planned Projects
-
-- [ ] Series de Fourier
-- [ ] Ecuaciones diferenciales básicas
-- [ ] Álgebra lineal visual
-- [ ] Probabilidad y estadística
-- [ ] Señales y sistemas
-- [ ] Optimización (gradiente descendente)
-- [ ] Mecánica clásica
-- [ ] Circuitos eléctricos
-- [ ] Control automático
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
-## 👤 Author
+## Author
 
 **Jeanroses** - Initial work and ongoing development
 
